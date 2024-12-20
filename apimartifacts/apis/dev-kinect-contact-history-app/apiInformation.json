@@ -11,6 +11,7 @@
     "protocols": [
       "https"
     ],
+    "serviceUrl": "https://dev.kinectmessaging.com/contact-history/v1",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"

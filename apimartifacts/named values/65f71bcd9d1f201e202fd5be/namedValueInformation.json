@@ -1,6 +1,9 @@
 {
   "properties": {
     "displayName": "Logger-Credentials--65f71bcd9d1f201e202fd5bf",
+    "keyVault": {
+      "secretIdentifier": "https://dev-kinect-app-secrets.vault.azure.net/secrets/log-analytics-key"
+    },
     "secret": true
   }
 }

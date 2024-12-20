@@ -9,52 +9,60 @@ paths:
   /*:
     put:
       summary: dev-kinect-config-api_PUT
+      description: dev-kinect-config-api_PUT
       operationId: 65f7c21a9b5bf8a3ba8adee7
       responses:
         '200':
-          description: 
+          description: ''
     options:
       summary: dev-kinect-config-api_OPTIONS
+      description: dev-kinect-config-api_OPTIONS
       operationId: 65f7c21a2b68050832cc8c16
       responses:
         '200':
-          description: 
+          description: ''
     delete:
       summary: dev-kinect-config-api_DELETE
+      description: dev-kinect-config-api_DELETE
       operationId: 65f7c21ad7eec9ba74093faa
       responses:
         '200':
-          description: 
+          description: ''
     trace:
       summary: dev-kinect-config-api_TRACE
+      description: dev-kinect-config-api_TRACE
       operationId: 65f7c21afec0c28f030635d0
       responses:
         '200':
-          description: 
+          description: ''
     post:
       summary: dev-kinect-config-api_POST
+      description: dev-kinect-config-api_POST
       operationId: 65f7c21a96626b0237b190c7
       responses:
         '200':
-          description: 
+          description: ''
     get:
       summary: dev-kinect-config-api_GET
+      description: dev-kinect-config-api_GET
       operationId: 65f7c21a0eadc833a53219f5
       responses:
         '200':
-          description: 
+          description: ''
     head:
       summary: dev-kinect-config-api_HEAD
+      description: dev-kinect-config-api_HEAD
       operationId: 65f7c21ae741081660a51966
       responses:
         '200':
-          description: 
+          description: ''
     patch:
       summary: dev-kinect-config-api_PATCH
+      description: dev-kinect-config-api_PATCH
       operationId: 65f7c21acc96de146facf39d
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
