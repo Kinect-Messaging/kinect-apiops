@@ -9,10 +9,11 @@ paths:
   /mjml2html:
     post:
       summary: mjml2html
+      description: mjml2html
       operationId: post-mjml2html
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:

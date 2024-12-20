@@ -9,10 +9,11 @@ paths:
   /*:
     post:
       summary: dev-kinect-event-processor-app_POST
+      description: dev-kinect-event-processor-app_POST
       operationId: 67057c699596c8b363abaf22
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:

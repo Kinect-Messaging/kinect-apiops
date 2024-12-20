@@ -9,10 +9,11 @@ paths:
   /*:
     post:
       summary: dev-kinect-email-app_POST
+      description: dev-kinect-email-app_POST
       operationId: 66021aff72bdc6935cec03cb
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:

@@ -9,53 +9,61 @@ paths:
   /*:
     delete:
       summary: dev-kinect-contact-history-app_DELETE
+      description: dev-kinect-contact-history-app_DELETE
       operationId: 672263054248514d4e654d8d
       responses:
         '200':
-          description: 
+          description: ''
     post:
       summary: dev-kinect-contact-history-app_POST
+      description: dev-kinect-contact-history-app_POST
       operationId: 6722630550986a55467139de
       responses:
         '200':
-          description: 
+          description: ''
     get:
       summary: dev-kinect-contact-history-app_GET
+      description: dev-kinect-contact-history-app_GET
       operationId: 67226305288e0a27a9ea83e5
       responses:
         '200':
-          description: 
+          description: ''
     trace:
       summary: dev-kinect-contact-history-app_TRACE
+      description: dev-kinect-contact-history-app_TRACE
       operationId: 67226305d56a09a71996ddea
       responses:
         '200':
-          description: 
+          description: ''
     patch:
       summary: dev-kinect-contact-history-app_PATCH
+      description: dev-kinect-contact-history-app_PATCH
       operationId: 672263051dd2f0ff7c92bd35
       responses:
         '200':
-          description: 
+          description: ''
     put:
       summary: dev-kinect-contact-history-app_PUT
+      description: dev-kinect-contact-history-app_PUT
       operationId: 6722630529ae48b8b37633fe
       responses:
         '200':
-          description: 
+          description: ''
     head:
       summary: dev-kinect-contact-history-app_HEAD
+      description: dev-kinect-contact-history-app_HEAD
       operationId: 67226305a76ac94ce51aad5f
       responses:
         '200':
-          description: 
+          description: ''
   /kinect/messaging/contact-history:
     options:
       summary: dev-kinect-contact-history-app_OPTIONS
+      description: dev-kinect-contact-history-app_OPTIONS
       operationId: 67226305e94692a9b29d2e14
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:

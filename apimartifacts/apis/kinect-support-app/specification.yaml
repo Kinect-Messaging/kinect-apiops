@@ -9,22 +9,25 @@ paths:
   /*:
     put:
       summary: kinect-support-app_PUT
+      description: kinect-support-app_PUT
       operationId: 670f5327fc703013a040da04
       responses:
         '200':
-          description: 
+          description: ''
     post:
       summary: kinect-support-app_POST
+      description: kinect-support-app_POST
       operationId: 670f53272ff236ea67342cc1
       responses:
         '200':
-          description: 
+          description: ''
     get:
       summary: kinect-support-app_GET
+      description: kinect-support-app_GET
       operationId: 670f5327649ef8cf37e7a2fd
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
