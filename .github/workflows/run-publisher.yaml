@@ -17,6 +17,10 @@ on:
         options:
           - "publish-artifacts-in-last-commit"
           - "publish-all-artifacts-in-repo"
+      PROD_FLAG:
+        description: 'Choose true when you want to publish to Production environment'
+        type: boolean
+        default: false
 
 jobs:
   get-commit:
@@ -50,7 +54,7 @@ jobs:
     secrets: inherit
 
   Push-Changes-To-APIM-Prod-With-Commit-ID:
-    if: (github.event.inputs.COMMIT_ID_CHOICE == 'publish-artifacts-in-last-commit' || github.event.inputs.COMMIT_ID_CHOICE == '')
+    if: (github.event.inputs.PROD_FLAG == true && (github.event.inputs.COMMIT_ID_CHOICE == 'publish-artifacts-in-last-commit' || github.event.inputs.COMMIT_ID_CHOICE == ''))
     needs: [get-commit, Push-Changes-To-APIM-Dev-With-Commit-ID]
     uses: ./.github/workflows/run-publisher-with-env.yaml
     with:
@@ -61,7 +65,7 @@ jobs:
     secrets: inherit
 
   Push-Changes-To-APIM-Prod-Without-Commit-ID:
-    if: ( github.event.inputs.COMMIT_ID_CHOICE == 'publish-all-artifacts-in-repo' )
+    if: ( github.event.inputs.PROD_FLAG == true && (github.event.inputs.COMMIT_ID_CHOICE == 'publish-all-artifacts-in-repo' ))
     needs: [get-commit, Push-Changes-To-APIM-Dev-Without-Commit-ID]
     uses: ./.github/workflows/run-publisher-with-env.yaml
     with:
