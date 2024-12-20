@@ -1,0 +1,31 @@
+<policies>
+	<inbound>
+		<base />
+		<cors allow-credentials="true">
+			<allowed-origins>
+				<origin>http://localhost:5173</origin>
+				<origin>http://localhost:3000</origin>
+				<origin>https://kinect-messaging.braveground-5c0f9c31.westus.azurecontainerapps.io</origin>
+			</allowed-origins>
+			<allowed-methods>
+				<method>*</method>
+			</allowed-methods>
+			<allowed-headers>
+				<header>*</header>
+			</allowed-headers>
+			<expose-headers>
+				<header>*</header>
+			</expose-headers>
+		</cors>
+		<set-backend-service id="apim-generated-policy" backend-id="ContainerApp_kinect-config-app" />
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

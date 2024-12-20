@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "path": "mjml",
+    "apiRevision": "1",
+    "apiVersion": "v1",
+    "apiVersionSetId": "/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-gateway-rg/providers/Microsoft.ApiManagement/service/dev-kinect-apim-service/apiVersionSets/65f71f83bb033777c6dd0f88",
+    "authenticationSettings": {},
+    "description": "Wrapper function for parsing MJML templates",
+    "isCurrent": true,
+    "displayName": "dev-mjml-api",
+    "protocols": [
+      "https"
+    ],
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

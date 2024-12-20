@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "displayName": "Configs",
+    "description": "Journey \u0026 Message configurations will be part of this API service",
+    "approvalRequired": false,
+    "state": "published",
+    "subscriptionRequired": true,
+    "subscriptionsLimit": 10
+  }
+}
