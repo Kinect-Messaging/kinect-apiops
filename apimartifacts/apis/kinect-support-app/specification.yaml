@@ -1,0 +1,40 @@
+openapi: 3.0.1
+info:
+  title: kinect-support-app
+  description: ''
+  version: v1
+servers:
+  - url: https://dev.kinectmessaging.com/support/v1
+paths:
+  /*:
+    put:
+      summary: kinect-support-app_PUT
+      operationId: 670f5327fc703013a040da04
+      responses:
+        '200':
+          description: 
+    post:
+      summary: kinect-support-app_POST
+      operationId: 670f53272ff236ea67342cc1
+      responses:
+        '200':
+          description: 
+    get:
+      summary: kinect-support-app_GET
+      operationId: 670f5327649ef8cf37e7a2fd
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]

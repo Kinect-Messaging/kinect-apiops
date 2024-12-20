@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "path": "support",
+    "apiRevision": "1",
+    "apiVersion": "v1",
+    "apiVersionSetId": "/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-gateway-rg/providers/Microsoft.ApiManagement/service/dev-kinect-apim-service/apiVersionSets/670f53221056509f3f06231a",
+    "authenticationSettings": {},
+    "description": "",
+    "isCurrent": true,
+    "displayName": "kinect-support-app",
+    "protocols": [
+      "https"
+    ],
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

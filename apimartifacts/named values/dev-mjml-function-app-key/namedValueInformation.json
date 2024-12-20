@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "displayName": "dev-mjml-function-app-key",
+    "secret": true,
+    "tags": [
+      "key",
+      "function",
+      "auto"
+    ]
+  }
+}

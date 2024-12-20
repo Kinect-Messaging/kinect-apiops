@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "dev-test-api-key",
+    "scope": "/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-gateway-rg/providers/Microsoft.ApiManagement/service/dev-kinect-apim-service/apis",
+    "allowTracing": false,
+    "state": "active"
+  }
+}

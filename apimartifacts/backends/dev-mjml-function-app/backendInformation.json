@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "credentials": {
+      "header": {
+        "x-functions-key": [
+          "{{dev-mjml-function-app-key}}"
+        ]
+      }
+    },
+    "description": "dev-mjml-function-app",
+    "protocol": "http",
+    "resourceId": "https://management.azure.com/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-functions-rg/providers/Microsoft.Web/sites/dev-mjml-function-app",
+    "url": "https://dev-mjml-function-app.azurewebsites.net/api"
+  }
+}
