@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "credentials": {
+      "header": {}
+    },
+    "description": "kinect-config-app",
+    "protocol": "http",
+    "resourceId": "https://management.azure.com/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-apps-rg/providers/Microsoft.App/containerApps/kinect-config-app",
+    "tls": {
+      "validateCertificateChain": false,
+      "validateCertificateName": false
+    },
+    "url": "https://kinect-config-app.braveground-5c0f9c31.westus.azurecontainerapps.io"
+  }
+}

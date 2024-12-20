@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "loggerType": "applicationInsights",
+    "credentials": {
+      "instrumentationKey": "{{Logger-Credentials--65f71bcd9d1f201e202fd5bf}}"
+    },
+    "isBuffered": true,
+    "resourceId": "/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-apps-rg/providers/Microsoft.Insights/components/dev-kinect-app-insights"
+  }
+}

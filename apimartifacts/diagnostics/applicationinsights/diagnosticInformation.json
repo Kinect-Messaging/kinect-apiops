@@ -1,0 +1,41 @@
+{
+  "properties": {
+    "loggerId": "/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-gateway-rg/providers/Microsoft.ApiManagement/service/dev-kinect-apim-service/loggers/dev-kinect-app-insights",
+    "alwaysLog": "allErrors",
+    "backend": {
+      "request": {
+        "body": {
+          "bytes": 0
+        },
+        "headers": []
+      },
+      "response": {
+        "body": {
+          "bytes": 0
+        },
+        "headers": []
+      }
+    },
+    "frontend": {
+      "request": {
+        "body": {
+          "bytes": 0
+        },
+        "headers": []
+      },
+      "response": {
+        "body": {
+          "bytes": 0
+        },
+        "headers": []
+      }
+    },
+    "httpCorrelationProtocol": "W3C",
+    "logClientIp": true,
+    "sampling": {
+      "percentage": 50,
+      "samplingType": "fixed"
+    },
+    "verbosity": "information"
+  }
+}

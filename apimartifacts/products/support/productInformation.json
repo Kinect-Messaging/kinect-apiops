@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "displayName": "Support",
+    "description": "APIs that are used to support Kinect Messaging.",
+    "approvalRequired": false,
+    "state": "published",
+    "subscriptionRequired": true,
+    "subscriptionsLimit": 1
+  }
+}

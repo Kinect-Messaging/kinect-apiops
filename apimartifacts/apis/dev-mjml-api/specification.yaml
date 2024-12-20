@@ -1,0 +1,28 @@
+openapi: 3.0.1
+info:
+  title: dev-mjml-api
+  description: Wrapper function for parsing MJML templates
+  version: v1
+servers:
+  - url: https://dev.kinectmessaging.com/mjml/v1
+paths:
+  /mjml2html:
+    post:
+      summary: mjml2html
+      operationId: post-mjml2html
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
