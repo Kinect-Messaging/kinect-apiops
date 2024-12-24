@@ -1,7 +1,7 @@
 <policies>
 	<inbound>
 		<base />
-		<set-backend-service id="apim-generated-policy" backend-id="dev-mjml-function-app" />
+		<set-backend-service id="apim-generated-policy" backend-id="ContainerApp_kinect-mjml-app" />
 	</inbound>
 	<backend>
 		<base />
