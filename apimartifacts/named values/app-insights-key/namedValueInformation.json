@@ -2,7 +2,7 @@
   "properties": {
     "displayName": "app-insights-key",
     "keyVault": {
-      "secretIdentifier": "https://dev-kinect-app-secrets.vault.azure.net/secrets/app-insights-key"
+      "secretIdentifier": "https://dev-kinect-app-secrets.vault.azure.net/secrets/dev-app-insights-key"
     },
     "secret": true
   }
