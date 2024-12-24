@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "description": "kinect-mjml-app",
+    "protocol": "http",
+    "resourceId": "https://management.azure.com/subscriptions/ecb53e45-9f84-4736-b61b-88492ae0204f/resourceGroups/dev-apps-rg/providers/Microsoft.App/containerApps/kinect-mjml-app",
+    "url": "https://kinect-mjml-app.internal.ambitiousisland-ba3d17e8.westus.azurecontainerapps.io"
+  }
+}

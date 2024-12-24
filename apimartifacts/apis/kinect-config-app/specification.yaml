@@ -1,0 +1,78 @@
+openapi: 3.0.1
+info:
+  title: kinect-config-app
+  description: ''
+  version: v1
+servers:
+  - url: https://dev.kinectmessaging.com/config/v1
+paths:
+  /*:
+    put:
+      summary: kinect-config-app_PUT
+      description: kinect-config-app_PUT
+      operationId: 65f7c21a9b5bf8a3ba8adee7
+      responses:
+        '200':
+          description: ''
+    options:
+      summary: kinect-config-app_OPTIONS
+      description: kinect-config-app_OPTIONS
+      operationId: 65f7c21a2b68050832cc8c16
+      responses:
+        '200':
+          description: ''
+    delete:
+      summary: kinect-config-app_DELETE
+      description: kinect-config-app_DELETE
+      operationId: 65f7c21ad7eec9ba74093faa
+      responses:
+        '200':
+          description: ''
+    trace:
+      summary: kinect-config-app_TRACE
+      description: kinect-config-app_TRACE
+      operationId: 65f7c21afec0c28f030635d0
+      responses:
+        '200':
+          description: ''
+    post:
+      summary: kinect-config-app_POST
+      description: kinect-config-app_POST
+      operationId: 65f7c21a96626b0237b190c7
+      responses:
+        '200':
+          description: ''
+    get:
+      summary: kinect-config-app_GET
+      description: kinect-config-app_GET
+      operationId: 65f7c21a0eadc833a53219f5
+      responses:
+        '200':
+          description: ''
+    head:
+      summary: kinect-config-app_HEAD
+      description: kinect-config-app_HEAD
+      operationId: 65f7c21ae741081660a51966
+      responses:
+        '200':
+          description: ''
+    patch:
+      summary: kinect-config-app_PATCH
+      description: kinect-config-app_PATCH
+      operationId: 65f7c21acc96de146facf39d
+      responses:
+        '200':
+          description: ''
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
