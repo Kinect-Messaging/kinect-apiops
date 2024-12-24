@@ -174,6 +174,7 @@ jobs:
           API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH: apimartifacts  # change this to the artifacts folder          
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'dev/extract'
           commit-message: "updated extract from apim instance ${{ env.API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH }}"
           title: "${{ env.API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH }} - extract"
           body: >

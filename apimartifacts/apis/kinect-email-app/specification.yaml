@@ -1,0 +1,29 @@
+openapi: 3.0.1
+info:
+  title: kinect-email-app-v1
+  description: ''
+  version: v1
+servers:
+  - url: https://dev.kinectmessaging.com/email/v1
+paths:
+  /*:
+    post:
+      summary: kinect-email-app_POST
+      description: kinect-email-app_POST
+      operationId: 66021aff72bdc6935cec03cb
+      responses:
+        '200':
+          description: ''
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
